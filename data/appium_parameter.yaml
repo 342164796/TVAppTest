@@ -1,0 +1,5 @@
+appPackage: com.jamdeo.tv.vod
+appActivity: .VodActivity
+appWaitActivity: .MasterViewActivity
+platformName: Android
+noSign: True

@@ -1,0 +1,10 @@
+---
+-
+  name: 首栏大海报推荐位点击
+  action: keyevent
+  keys: ok
+  assert: 钻石也疯狂
+-
+  name: 播放
+  action: keyevent
+  keys: ok

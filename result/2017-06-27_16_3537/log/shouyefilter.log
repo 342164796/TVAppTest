@@ -1,0 +1,219 @@
+#----------------------------------------/n06-27 16:37:41.268 W/UiAutomatorBridge(26317): java.util.concurrent.TimeoutException: No idle state with idle timeout: 500 within global timeout: 10000
+06-27 16:37:41.268 W/UiAutomatorBridge(26317): 	at android.app.UiAutomation.waitForIdle(UiAutomation.java:591)
+06-27 16:37:41.268 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:96)
+06-27 16:37:41.268 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:91)
+06-27 16:37:41.268 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:143)
+06-27 16:37:41.268 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:138)
+06-27 16:37:41.268 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiObject.findAccessibilityNodeInfo(UiObject.java:168)
+06-27 16:37:41.268 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiObject.waitForExists(UiObject.java:852)
+06-27 16:37:41.268 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiObject.exists(UiObject.java:903)
+06-27 16:37:41.268 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.common.UiWatchers$4.checkForCondition(UiWatchers.java:107)
+06-27 16:37:41.268 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiDevice.runWatchers(UiDevice.java:557)
+06-27 16:37:41.268 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiObject.findAccessibilityNodeInfo(UiObject.java:173)
+06-27 16:37:41.268 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiObject.waitForExists(UiObject.java:852)
+06-27 16:37:41.268 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiObject.exists(UiObject.java:903)
+06-27 16:37:41.268 W/UiAutomatorBridge(26317): 	at io.appium.android.bootstrap.utils.TheWatchers.isDialogPresent(TheWatchers.java:51)
+06-27 16:37:41.268 W/UiAutomatorBridge(26317): 	at io.appium.android.bootstrap.utils.TheWatchers.check(TheWatchers.java:36)
+06-27 16:37:41.268 W/UiAutomatorBridge(26317): 	at io.appium.android.bootstrap.SocketServer$1.run(SocketServer.java:140)
+06-27 16:37:41.268 W/UiAutomatorBridge(26317): 	at java.util.Timer$TimerImpl.run(Timer.java:284)
+#----------------------------------------/n06-27 16:37:45.581 W/UiAutomatorBridge(26317): java.util.concurrent.TimeoutException: No idle state with idle timeout: 500 within global timeout: 10000
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at android.app.UiAutomation.waitForIdle(UiAutomation.java:591)
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:96)
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiDevice.waitForIdle(UiDevice.java:485)
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiDevice.waitForIdle(UiDevice.java:475)
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiDevice.pressKeyCode(UiDevice.java:314)
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at io.appium.android.bootstrap.handler.PressKeyCode.execute(PressKeyCode.java:64)
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at io.appium.android.bootstrap.AndroidCommandExecutor.execute(AndroidCommandExecutor.java:81)
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at io.appium.android.bootstrap.SocketServer.runCommand(SocketServer.java:203)
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at io.appium.android.bootstrap.SocketServer.handleClientData(SocketServer.java:105)
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at io.appium.android.bootstrap.SocketServer.listenForever(SocketServer.java:159)
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at io.appium.android.bootstrap.Bootstrap.testRunServer(Bootstrap.java:37)
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at junit.framework.TestCase.runTest(TestCase.java:168)
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at junit.framework.TestCase.runBare(TestCase.java:134)
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at junit.framework.TestResult$1.protect(TestResult.java:115)
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at junit.framework.TestResult.runProtected(TestResult.java:133)
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at junit.framework.TestResult.run(TestResult.java:118)
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at junit.framework.TestCase.run(TestCase.java:124)
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+06-27 16:37:45.581 W/UiAutomatorBridge(26317): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+#----------------------------------------/n06-27 16:37:51.223 D/Exception( 3278): AndroidUtil reportException 233 : Exception=deviceId=86100300900000200000060b480cc826&token=534F365759AD8B2239A8634663A86A37_000085543180639&timeStamp=1498552671&errorPOS=0&errorCode=&adcode=ad_sc&versionCode=1.02.3.7.0&extPara=getADContent&codeLine=129&appName=ADService
+06-27 16:37:51.229 D/DBManager( 3278): update 950 : result = 1
+06-27 16:37:51.230 I/ADServiceHandler( 3278): registerADCode 930 : to update ad_vm_av3 ad strategy.
+06-27 16:37:51.230 I/ADServiceHandler( 3278): registerADCode 937 : com.jamdeo.systemui.internal success to register ad_vm_av3 ADCode.
+06-27 16:37:51.234 D/ADServiceHandler( 3278): preExecute 588 : preExecute
+06-27 16:37:51.237 D/RegisterADService( 3278): RegisterADService run 31 : ******before refresh(info.getAdCode())ad_on_cv4&*****com.jamdeo.tv.advertisementproxy
+06-27 16:37:51.239 D/RegisterADService( 3278): RegisterADService run 54 : refresh appad, ^^^^app pkg:com.jamdeo.tv.advertisementproxy  &&&app adcode: ad_on_cv4
+06-27 16:37:51.240 D/ADServiceHandler( 3278): registerADCode 850 : @_@  getADPeriod is 60
+06-27 16:37:51.241 D/ADServiceHandler( 3278): registerADCode 881 : get adCodeInfo from cache manager.
+06-27 16:37:51.242 D/CacheManager( 3278): getAdCodeInfo 39 : adCache size = 4
+06-27 16:37:51.242 D/DBManager( 3278): DBManager update 939 : update appcodeinfo---------------------
+06-27 16:37:51.251 D/DBManager( 3278): update 950 : result = 1
+06-27 16:37:51.252 I/ADServiceHandler( 3278): registerADCode 930 : to update ad_on_cv4 ad strategy.
+06-27 16:37:51.253 I/ADServiceHandler( 3278): registerADCode 937 : com.jamdeo.tv.advertisementproxy success to register ad_on_cv4 ADCode.
+06-27 16:37:51.285 D/ADXmlParser( 3278): ADXmlParser parserADCodeInfo 189 : xml is: <?xml version="1.0" encoding="UTF-8"?>
+06-27 16:37:51.285 D/ADXmlParser( 3278): <root>
+06-27 16:37:51.285 D/ADXmlParser( 3278): <plist adcode="ad_sc" adpositionowner="hitv" defadid="1000000002492" defadtype="5" defadurl="http://download.hismarttv.com/epgdata/ImageAD/9000019146505.jpg" md5="b10ab59f416c4eb0e3b279d9cf6c2a5f" reportlogflag="0" datareport="1" policyid="0" reporttype="0">
+06-27 16:37:51.285 D/ADXmlParser( 3278): <dturls>
+06-27 16:37:51.285 D/ADXmlParser( 3278): <dturl id="8" code="hitvdef">http://api.hismarttv.com/adapi/getlogopic?type=0&amp;ac=${ADCODE}&amp;pid=${ADPOLICY}&amp;aid=${ADID}&amp;did=${DEVICEID}&amp;t=${TIME}&amp;act=${ACTION}&amp;dt=${DISPLAYTIMES}&amp;tz=${TIMEZONE}&amp;mac=${MAC}</dturl>
+06-27 16:37:51.285 D/ADXmlParser( 3278): </dturls>
+06-27 16:37:51.285 D/ADXmlParser( 3278): <item></item>
+06-27 16:37:51.285 D/ADXmlParser( 3278): </plist>
+06-27 16:37:51.285 D/ADXmlParser( 3278): <signatureServer>0</signatureServer></root>
+06-27 16:37:51.286 D/ADXmlParser( 3278): parserADCodeInfo 522 : ==========ad code Info head==========
+06-27 16:37:51.287 D/ADXmlParser( 3278): ADXmlParser parserADCodeInfo 523 : ADCode = ad_sc
+06-27 16:37:51.288 D/ADXmlParser( 3278): ADXmlParser parserADCodeInfo 524 : Owner = hitv
+#----------------------------------------/n06-27 16:37:51.330 D/Exception( 3278): AndroidUtil reportException 233 : Exception=deviceId=86100300900000200000060b480cc826&token=534F365759AD8B2239A8634663A86A37_000085543180639&timeStamp=1498552671&errorPOS=1&errorCode=&adcode=ad_sc&versionCode=1.02.3.7.0&extPara=getADContent reply: policyid=0&codeLine=154&appName=ADService
+06-27 16:37:51.330 D/ADDaoHandler( 3278): updateADCodeInfo 657 : update ADCodeInfo
+06-27 16:37:51.330 D/DBManager( 3278): getStringFromURLList 1114 : getStringFromList:   [{"id":"8","code":"hitvdef","url":"http:\/\/api.hismarttv.com\/adapi\/getlogopic?type=0&ac=${ADCODE}&pid=${ADPOLICY}&aid=${ADID}&did=${DEVICEID}&t=${TIME}&act=${ACTION}&dt=${DISPLAYTIMES}&tz=${TIMEZONE}&mac=${MAC}"}]
+#----------------------------------------/n06-27 16:37:51.344 D/Exception( 3278): AndroidUtil reportException 233 : Exception=deviceId=86100300900000200000060b480cc826&token=534F365759AD8B2239A8634663A86A37_000085543180639&timeStamp=1498552671&errorPOS=2&errorCode=&adcode=ad_sc&versionCode=1.02.3.7.0&extPara=don't need to update policy&codeLine=169&appName=ADService
+06-27 16:37:51.344 D/UpdateADStrategy( 3278): run 171 : don't need to update policy for ad_sc
+06-27 16:37:51.344 D/UpdateADStrategy( 3278): run 54 : android running time is 3680459
+06-27 16:37:51.344 D/CacheManager( 3278): getAdCodeInfo 39 : adCache size = 4
+06-27 16:37:51.344 D/ADDaoHandler( 3278): updateADCodeInfo 657 : update ADCodeInfo
+06-27 16:37:51.345 D/DBManager( 3278): getStringFromURLList 1114 : getStringFromList:   [{"id":"8","code":"hitvdef","url":"http:\/\/api.hismarttv.com\/adapi\/getlogopic?type=0&ac=${ADCODE}&pid=${ADPOLICY}&aid=${ADID}&did=${DEVICEID}&t=${TIME}&act=${ACTION}&dt=${DISPLAYTIMES}&tz=${TIMEZONE}&mac=${MAC}"}]
+#----------------------------------------/n06-27 16:37:51.363 D/Exception( 3278): AndroidUtil reportException 233 : Exception=deviceId=86100300900000200000060b480cc826&token=534F365759AD8B2239A8634663A86A37_000085543180639&timeStamp=1498552671&errorPOS=0&errorCode=&adcode=sys_ssv3&versionCode=1.02.3.7.0&extPara=getADContent&codeLine=129&appName=ADService
+06-27 16:37:51.364 D/ADServiceHandler( 3278): preExecute 588 : preExecute
+06-27 16:37:51.394 D/ADXmlParser( 3278): ADXmlParser parserADCodeInfo 189 : xml is: <?xml version="1.0" encoding="UTF-8"?>
+06-27 16:37:51.394 D/ADXmlParser( 3278): <root>
+06-27 16:37:51.394 D/ADXmlParser( 3278): <plist adcode="sys_ssv3" adpositionowner="hitv" defadid="1000000001239" defadtype="5" defadurl="http://download.hismarttv.com/epgdata/ImageAD/9000019139817.jpg" md5="" reportlogflag="0" datareport="1" policyid="0" reporttype="0">
+06-27 16:37:51.394 D/ADXmlParser( 3278): <dturls>
+06-27 16:37:51.394 D/ADXmlParser( 3278): <dturl id="8" code="hitvdef">http://api.hismarttv.com/adapi/getlogopic?type=0&amp;ac=${ADCODE}&amp;pid=${ADPOLICY}&amp;aid=${ADID}&amp;did=${DEVICEID}&amp;t=${TIME}&amp;act=${ACTION}&amp;dt=${DISPLAYTIMES}&amp;tz=${TIMEZONE}&amp;mac=${MAC}</dturl>
+06-27 16:37:51.394 D/ADXmlParser( 3278): </dturls>
+06-27 16:37:51.394 D/ADXmlParser( 3278): <item></item>
+06-27 16:37:51.394 D/ADXmlParser( 3278): </plist>
+06-27 16:37:51.394 D/ADXmlParser( 3278): <signatureServer>0</signatureServer></root>
+06-27 16:37:51.395 D/ADXmlParser( 3278): parserADCodeInfo 522 : ==========ad code Info head==========
+06-27 16:37:51.396 D/ADXmlParser( 3278): ADXmlParser parserADCodeInfo 523 : ADCode = sys_ssv3
+06-27 16:37:51.396 D/ADXmlParser( 3278): ADXmlParser parserADCodeInfo 524 : Owner = hitv
+06-27 16:37:51.397 D/ADXmlParser( 3278): ADXmlParser parserADCodeInfo 525 : DefaultAdID = 1000000001239
+06-27 16:37:51.397 D/ADXmlParser( 3278): ADXmlParser parserADCodeInfo 526 : DefaultAdType = 5
+06-27 16:37:51.400 D/ADXmlParser( 3278): ADXmlParser parserADCodeInfo 527 : DefaultAdURL = http://download.hismarttv.com/epgdata/ImageAD/9000019139817.jpg
+06-27 16:37:51.401 D/ADXmlParser( 3278): ADXmlParser parserADCodeInfo 528 : DefaultAdPath = /data/data/com.hisense.service.ad/files/_download.hismarttv.com_epgdata_ImageAD_9000019139817.jpg
+06-27 16:37:51.402 D/ADXmlParser( 3278): ADXmlParser parserADCodeInfo 529 : ReportLogFlag = 0
+06-27 16:37:51.410 D/ADXmlParser( 3278): ADXmlParser parserADCodeInfo 530 : UpdateStatus = 0
+06-27 16:37:51.411 D/ADXmlParser( 3278): ADXmlParser parserADCodeInfo 531 : LastUpdateTime = 1498523871
+#----------------------------------------/n06-27 16:37:51.413 W/UiAutomatorBridge(26317): java.util.concurrent.TimeoutException: No idle state with idle timeout: 500 within global timeout: 10000
+06-27 16:37:51.413 W/UiAutomatorBridge(26317): 	at android.app.UiAutomation.waitForIdle(UiAutomation.java:591)
+06-27 16:37:51.413 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:96)
+06-27 16:37:51.413 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:91)
+06-27 16:37:51.413 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:143)
+06-27 16:37:51.413 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:138)
+06-27 16:37:51.413 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiObject.findAccessibilityNodeInfo(UiObject.java:168)
+06-27 16:37:51.413 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiObject.waitForExists(UiObject.java:852)
+06-27 16:37:51.413 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiObject.exists(UiObject.java:903)
+06-27 16:37:51.413 W/UiAutomatorBridge(26317): 	at io.appium.android.bootstrap.utils.TheWatchers.isDialogPresent(TheWatchers.java:51)
+06-27 16:37:51.413 W/UiAutomatorBridge(26317): 	at io.appium.android.bootstrap.utils.TheWatchers.check(TheWatchers.java:42)
+06-27 16:37:51.413 W/UiAutomatorBridge(26317): 	at io.appium.android.bootstrap.SocketServer$1.run(SocketServer.java:140)
+06-27 16:37:51.413 W/UiAutomatorBridge(26317): 	at java.util.Timer$TimerImpl.run(Timer.java:284)
+#----------------------------------------/n06-27 16:37:51.430 D/Exception( 3278): AndroidUtil reportException 233 : Exception=deviceId=86100300900000200000060b480cc826&token=534F365759AD8B2239A8634663A86A37_000085543180639&timeStamp=1498552671&errorPOS=1&errorCode=&adcode=sys_ssv3&versionCode=1.02.3.7.0&extPara=getADContent reply: policyid=0&codeLine=154&appName=ADService
+06-27 16:37:51.434 D/ADDaoHandler( 3278): updateADCodeInfo 657 : update ADCodeInfo
+06-27 16:37:51.435 D/DBManager( 3278): getStringFromURLList 1114 : getStringFromList:   [{"id":"8","code":"hitvdef","url":"http:\/\/api.hismarttv.com\/adapi\/getlogopic?type=0&ac=${ADCODE}&pid=${ADPOLICY}&aid=${ADID}&did=${DEVICEID}&t=${TIME}&act=${ACTION}&dt=${DISPLAYTIMES}&tz=${TIMEZONE}&mac=${MAC}"}]
+06-27 16:37:51.442 D/DBManager( 3278): update 928 : result = 1, table : ADCodeInfo
+#----------------------------------------/n06-27 16:37:51.444 D/Exception( 3278): AndroidUtil reportException 233 : Exception=deviceId=86100300900000200000060b480cc826&token=534F365759AD8B2239A8634663A86A37_000085543180639&timeStamp=1498552671&errorPOS=2&errorCode=&adcode=sys_ssv3&versionCode=1.02.3.7.0&extPara=don't need to update policy&codeLine=169&appName=ADService
+06-27 16:37:51.444 D/UpdateADStrategy( 3278): run 171 : don't need to update policy for sys_ssv3
+06-27 16:37:51.444 D/UpdateADStrategy( 3278): run 54 : android running time is 3680558
+06-27 16:37:51.444 D/CacheManager( 3278): getAdCodeInfo 39 : adCache size = 4
+06-27 16:37:51.444 D/ADDaoHandler( 3278): updateADCodeInfo 657 : update ADCodeInfo
+06-27 16:37:51.445 D/DBManager( 3278): getStringFromURLList 1114 : getStringFromList:   [{"id":"8","code":"hitvdef","url":"http:\/\/api.hismarttv.com\/adapi\/getlogopic?type=0&ac=${ADCODE}&pid=${ADPOLICY}&aid=${ADID}&did=${DEVICEID}&t=${TIME}&act=${ACTION}&dt=${DISPLAYTIMES}&tz=${TIMEZONE}&mac=${MAC}"}]
+#----------------------------------------/n06-27 16:37:51.455 D/Exception( 3278): AndroidUtil reportException 233 : Exception=deviceId=86100300900000200000060b480cc826&token=534F365759AD8B2239A8634663A86A37_000085543180639&timeStamp=1498552671&errorPOS=0&errorCode=&adcode=ad_vm_av3&versionCode=1.02.3.7.0&extPara=getADContent&codeLine=129&appName=ADService
+06-27 16:37:51.455 D/ADServiceHandler( 3278): preExecute 588 : preExecute
+#----------------------------------------/n06-27 16:37:51.550 D/Exception( 3278): AndroidUtil reportException 233 : Exception=deviceId=86100300900000200000060b480cc826&token=534F365759AD8B2239A8634663A86A37_000085543180639&timeStamp=1498552671&errorPOS=1&errorCode=&adcode=ad_vm_av3&versionCode=1.02.3.7.0&extPara=getADContent reply: policyid=0&codeLine=154&appName=ADService
+06-27 16:37:51.551 D/ADDaoHandler( 3278): updateADCodeInfo 657 : update ADCodeInfo
+06-27 16:37:51.551 D/DBManager( 3278): getStringFromURLList 1114 : getStringFromList:   [{"id":"8","code":"hitvdef","url":"http:\/\/api.hismarttv.com\/adapi\/getlogopic?type=0&ac=${ADCODE}&pid=${ADPOLICY}&aid=${ADID}&did=${DEVICEID}&t=${TIME}&act=${ACTION}&dt=${DISPLAYTIMES}&tz=${TIMEZONE}&mac=${MAC}"}]
+06-27 16:37:51.566 D/DBManager( 3278): update 928 : result = 1, table : ADCodeInfo
+#----------------------------------------/n06-27 16:37:51.568 D/Exception( 3278): AndroidUtil reportException 233 : Exception=deviceId=86100300900000200000060b480cc826&token=534F365759AD8B2239A8634663A86A37_000085543180639&timeStamp=1498552671&errorPOS=2&errorCode=&adcode=ad_vm_av3&versionCode=1.02.3.7.0&extPara=don't need to update policy&codeLine=169&appName=ADService
+06-27 16:37:51.568 D/UpdateADStrategy( 3278): run 171 : don't need to update policy for ad_vm_av3
+06-27 16:37:51.568 D/UpdateADStrategy( 3278): run 54 : android running time is 3680683
+06-27 16:37:51.569 D/CacheManager( 3278): getAdCodeInfo 39 : adCache size = 4
+06-27 16:37:51.569 D/ADDaoHandler( 3278): updateADCodeInfo 657 : update ADCodeInfo
+06-27 16:37:51.569 D/DBManager( 3278): getStringFromURLList 1114 : getStringFromList:   [{"id":"8","code":"hitvdef","url":"http:\/\/api.hismarttv.com\/adapi\/getlogopic?type=0&ac=${ADCODE}&pid=${ADPOLICY}&aid=${ADID}&did=${DEVICEID}&t=${TIME}&act=${ACTION}&dt=${DISPLAYTIMES}&tz=${TIMEZONE}&mac=${MAC}"}]
+06-27 16:37:51.582 D/DBManager( 3278): update 928 : result = 1, table : ADCodeInfo
+#----------------------------------------/n06-27 16:37:51.585 D/Exception( 3278): AndroidUtil reportException 233 : Exception=deviceId=86100300900000200000060b480cc826&token=534F365759AD8B2239A8634663A86A37_000085543180639&timeStamp=1498552671&errorPOS=0&errorCode=&adcode=ad_on_cv4&versionCode=1.02.3.7.0&extPara=getADContent&codeLine=129&appName=ADService
+06-27 16:37:51.585 D/ADServiceHandler( 3278): preExecute 588 : preExecute
+06-27 16:37:51.595 E/Volley  ( 3278): [38] a.a: Unexpected response code 502 for http://api.hismarttv.com/adapi/getadcontent?displaynum=1&policyid=0&adextinfo=mac=a8a6480cc826%26andid=53862297cf55116%26dd=VIDAA_TV%26ov=6.0%26avc=340%26sv=1%26adgetperiod=1%26cap=1073741824&adinfo=ad_on_cv4&language_id=0&os_version=2.3&os_type=1&tv_mode=Hicloud&zipcode=&countrycode=CHN&token=534F365759AD8B2239A8634663A86A37_000085543180639&version=7.2
+#----------------------------------------/n06-27 16:37:51.600 W/System.err( 3278): java.util.concurrent.ExecutionException: com.hisense.hitv.hicloud.a.y
+06-27 16:37:51.601 W/System.err( 3278): 	at com.hisense.hitv.hicloud.a.a.o.a(RequestFuture.java:118)
+06-27 16:37:51.602 W/System.err( 3278): 	at com.hisense.hitv.hicloud.a.a.o.get(RequestFuture.java:89)
+06-27 16:37:51.603 W/System.err( 3278): 	at com.hisense.hitv.hicloud.http.c.a(HttpHandler.java:79)
+06-27 16:37:51.605 W/System.err( 3278): 	at com.hisense.hitv.hicloud.http.c.a(HttpHandler.java:158)
+06-27 16:37:51.606 W/System.err( 3278): 	at com.hisense.hitv.hicloud.http.c.a(HttpHandler.java:295)
+06-27 16:37:51.608 W/System.err( 3278): 	at com.hisense.hitv.hicloud.service.impl.AdEngineServiceImpl.getAdContent(AdEngineServiceImpl.java:85)
+06-27 16:37:51.609 W/System.err( 3278): 	at com.hisense.service.ad.dao.ADDaoHandler.getADPlayPolicy(ADDaoHandler.java:786)
+06-27 16:37:51.609 W/System.err( 3278): 	at com.hisense.service.ad.service.ADServiceHandler.getAdPolicy(ADServiceHandler.java:246)
+06-27 16:37:51.610 W/System.err( 3278): 	at com.hisense.service.ad.service.UpdateADStrategy.run(UpdateADStrategy.java:132)
+06-27 16:37:51.612 W/System.err( 3278): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+06-27 16:37:51.613 W/System.err( 3278): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+06-27 16:37:51.614 W/System.err( 3278): 	at java.lang.Thread.run(Thread.java:818)
+06-27 16:37:51.619 W/System.err( 3278): Caused by: com.hisense.hitv.hicloud.a.y
+06-27 16:37:51.620 W/System.err( 3278): 	at com.hisense.hitv.hicloud.a.a.a.a(BasicNetwork.java:186)
+06-27 16:37:51.622 W/System.err( 3278): 	at com.hisense.hitv.hicloud.a.j.run(NetworkDispatcher.java:114)
+#----------------------------------------/n06-27 16:37:51.623 E/HttpHandler( 3278): java.util.concurrent.ExecutionException: com.hisense.hitv.hicloud.a.y
+06-27 16:37:51.623 E/HttpHandler( 3278): 	at com.hisense.hitv.hicloud.a.a.o.a(RequestFuture.java:118)
+06-27 16:37:51.623 E/HttpHandler( 3278): 	at com.hisense.hitv.hicloud.a.a.o.get(RequestFuture.java:89)
+06-27 16:37:51.623 E/HttpHandler( 3278): 	at com.hisense.hitv.hicloud.http.c.a(HttpHandler.java:79)
+06-27 16:37:51.623 E/HttpHandler( 3278): 	at com.hisense.hitv.hicloud.http.c.a(HttpHandler.java:158)
+06-27 16:37:51.623 E/HttpHandler( 3278): 	at com.hisense.hitv.hicloud.http.c.a(HttpHandler.java:295)
+06-27 16:37:51.623 E/HttpHandler( 3278): 	at com.hisense.hitv.hicloud.service.impl.AdEngineServiceImpl.getAdContent(AdEngineServiceImpl.java:85)
+06-27 16:37:51.623 E/HttpHandler( 3278): 	at com.hisense.service.ad.dao.ADDaoHandler.getADPlayPolicy(ADDaoHandler.java:786)
+06-27 16:37:51.623 E/HttpHandler( 3278): 	at com.hisense.service.ad.service.ADServiceHandler.getAdPolicy(ADServiceHandler.java:246)
+06-27 16:37:51.623 E/HttpHandler( 3278): 	at com.hisense.service.ad.service.UpdateADStrategy.run(UpdateADStrategy.java:132)
+06-27 16:37:51.623 E/HttpHandler( 3278): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+06-27 16:37:51.623 E/HttpHandler( 3278): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+06-27 16:37:51.623 E/HttpHandler( 3278): 	at java.lang.Thread.run(Thread.java:818)
+06-27 16:37:51.623 E/HttpHandler( 3278): Caused by: com.hisense.hitv.hicloud.a.y
+06-27 16:37:51.623 E/HttpHandler( 3278): 	at com.hisense.hitv.hicloud.a.a.a.a(BasicNetwork.java:186)
+06-27 16:37:51.623 E/HttpHandler( 3278): 	at com.hisense.hitv.hicloud.a.j.run(NetworkDispatcher.java:114)
+06-27 16:37:51.625 E/HttpHandler( 3278): networkResponse.statusCode=502
+06-27 16:37:51.628 D/ADXmlParser( 3278): ADXmlParser parserADCodeInfo 189 : xml is: <?xml version="1.0" encoding="utf-8"?><response><resultCode>1</resultCode><errorCode>000000</errorCode><errorDesc>502</errorDesc><error_code>000000</error_code><error_name>502</error_name></response>
+06-27 16:37:51.630 D/ADXmlParser( 3278): parserADCodeInfo 522 : ==========ad code Info head==========
+06-27 16:37:51.635 D/ADXmlParser( 3278): ADXmlParser parserADCodeInfo 523 : ADCode = 
+06-27 16:37:51.636 D/ADXmlParser( 3278): ADXmlParser parserADCodeInfo 524 : Owner = 
+#----------------------------------------/n06-27 16:37:51.658 D/Exception( 3278): AndroidUtil reportException 233 : Exception=deviceId=86100300900000200000060b480cc826&token=534F365759AD8B2239A8634663A86A37_000085543180639&timeStamp=1498552671&errorPOS=1&errorCode=000000&adcode=ad_on_cv4&versionCode=1.02.3.7.0&extPara=502&codeLine=149&appName=ADService
+#----------------------------------------/n06-27 16:37:56.745 W/UiAutomatorBridge(26317): java.util.concurrent.TimeoutException: No idle state with idle timeout: 500 within global timeout: 10000
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at android.app.UiAutomation.waitForIdle(UiAutomation.java:591)
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:96)
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiDevice.waitForIdle(UiDevice.java:485)
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiDevice.waitForIdle(UiDevice.java:475)
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiDevice.pressKeyCode(UiDevice.java:314)
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at io.appium.android.bootstrap.handler.PressKeyCode.execute(PressKeyCode.java:64)
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at io.appium.android.bootstrap.AndroidCommandExecutor.execute(AndroidCommandExecutor.java:81)
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at io.appium.android.bootstrap.SocketServer.runCommand(SocketServer.java:203)
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at io.appium.android.bootstrap.SocketServer.handleClientData(SocketServer.java:105)
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at io.appium.android.bootstrap.SocketServer.listenForever(SocketServer.java:159)
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at io.appium.android.bootstrap.Bootstrap.testRunServer(Bootstrap.java:37)
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at junit.framework.TestCase.runTest(TestCase.java:168)
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at junit.framework.TestCase.runBare(TestCase.java:134)
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at junit.framework.TestResult$1.protect(TestResult.java:115)
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at junit.framework.TestResult.runProtected(TestResult.java:133)
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at junit.framework.TestResult.run(TestResult.java:118)
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at junit.framework.TestCase.run(TestCase.java:124)
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+06-27 16:37:56.745 W/UiAutomatorBridge(26317): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+#----------------------------------------/n06-27 16:38:01.615 W/UiAutomatorBridge(26317): java.util.concurrent.TimeoutException: No idle state with idle timeout: 500 within global timeout: 10000
+06-27 16:38:01.615 W/UiAutomatorBridge(26317): 	at android.app.UiAutomation.waitForIdle(UiAutomation.java:591)
+06-27 16:38:01.615 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:96)
+06-27 16:38:01.615 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:91)
+06-27 16:38:01.615 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:143)
+06-27 16:38:01.615 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:138)
+06-27 16:38:01.615 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiObject.findAccessibilityNodeInfo(UiObject.java:168)
+06-27 16:38:01.615 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiObject.waitForExists(UiObject.java:852)
+06-27 16:38:01.615 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiObject.exists(UiObject.java:903)
+06-27 16:38:01.615 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.common.UiWatchers$3.checkForCondition(UiWatchers.java:87)
+06-27 16:38:01.615 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiDevice.runWatchers(UiDevice.java:557)
+06-27 16:38:01.615 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiObject.findAccessibilityNodeInfo(UiObject.java:173)
+06-27 16:38:01.615 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiObject.waitForExists(UiObject.java:852)
+06-27 16:38:01.615 W/UiAutomatorBridge(26317): 	at com.android.uiautomator.core.UiObject.exists(UiObject.java:903)
+06-27 16:38:01.615 W/UiAutomatorBridge(26317): 	at io.appium.android.bootstrap.utils.TheWatchers.isDialogPresent(TheWatchers.java:51)
+06-27 16:38:01.615 W/UiAutomatorBridge(26317): 	at io.appium.android.bootstrap.utils.TheWatchers.check(TheWatchers.java:42)
+06-27 16:38:01.615 W/UiAutomatorBridge(26317): 	at io.appium.android.bootstrap.SocketServer$1.run(SocketServer.java:140)
+06-27 16:38:01.615 W/UiAutomatorBridge(26317): 	at java.util.Timer$TimerImpl.run(Timer.java:284)

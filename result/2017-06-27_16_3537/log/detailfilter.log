@@ -1,0 +1,162 @@
+#----------------------------------------/n06-27 16:36:25.777 W/UiAutomatorBridge(24837): java.util.concurrent.TimeoutException: No idle state with idle timeout: 500 within global timeout: 10000
+06-27 16:36:25.777 W/UiAutomatorBridge(24837): 	at android.app.UiAutomation.waitForIdle(UiAutomation.java:591)
+06-27 16:36:25.777 W/UiAutomatorBridge(24837): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:96)
+06-27 16:36:25.777 W/UiAutomatorBridge(24837): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:91)
+06-27 16:36:25.777 W/UiAutomatorBridge(24837): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:143)
+06-27 16:36:25.777 W/UiAutomatorBridge(24837): 	at com.android.uiautomator.core.QueryController.findAccessibilityNodeInfo(QueryController.java:138)
+06-27 16:36:25.777 W/UiAutomatorBridge(24837): 	at com.android.uiautomator.core.UiObject.findAccessibilityNodeInfo(UiObject.java:168)
+06-27 16:36:25.777 W/UiAutomatorBridge(24837): 	at com.android.uiautomator.core.UiObject.waitForExists(UiObject.java:852)
+06-27 16:36:25.777 W/UiAutomatorBridge(24837): 	at com.android.uiautomator.core.UiObject.exists(UiObject.java:903)
+06-27 16:36:25.777 W/UiAutomatorBridge(24837): 	at com.android.uiautomator.common.UiWatchers$3.checkForCondition(UiWatchers.java:87)
+06-27 16:36:25.777 W/UiAutomatorBridge(24837): 	at com.android.uiautomator.core.UiDevice.runWatchers(UiDevice.java:557)
+06-27 16:36:25.777 W/UiAutomatorBridge(24837): 	at com.android.uiautomator.core.UiObject.findAccessibilityNodeInfo(UiObject.java:173)
+06-27 16:36:25.777 W/UiAutomatorBridge(24837): 	at com.android.uiautomator.core.UiObject.waitForExists(UiObject.java:852)
+06-27 16:36:25.777 W/UiAutomatorBridge(24837): 	at com.android.uiautomator.core.UiObject.exists(UiObject.java:903)
+06-27 16:36:25.777 W/UiAutomatorBridge(24837): 	at io.appium.android.bootstrap.utils.TheWatchers.isDialogPresent(TheWatchers.java:51)
+06-27 16:36:25.777 W/UiAutomatorBridge(24837): 	at io.appium.android.bootstrap.utils.TheWatchers.check(TheWatchers.java:42)
+06-27 16:36:25.777 W/UiAutomatorBridge(24837): 	at io.appium.android.bootstrap.SocketServer$1.run(SocketServer.java:140)
+06-27 16:36:25.777 W/UiAutomatorBridge(24837): 	at java.util.Timer$TimerImpl.run(Timer.java:284)
+#----------------------------------------/n06-27 16:36:28.486 W/UiAutomatorBridge(24837): java.util.concurrent.TimeoutException: No idle state with idle timeout: 500 within global timeout: 10000
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at android.app.UiAutomation.waitForIdle(UiAutomation.java:591)
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at com.android.uiautomator.core.UiAutomatorBridge.waitForIdle(UiAutomatorBridge.java:96)
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at com.android.uiautomator.core.UiDevice.waitForIdle(UiDevice.java:485)
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at com.android.uiautomator.core.UiDevice.waitForIdle(UiDevice.java:475)
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at com.android.uiautomator.core.UiDevice.pressKeyCode(UiDevice.java:314)
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at io.appium.android.bootstrap.handler.PressKeyCode.execute(PressKeyCode.java:64)
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at io.appium.android.bootstrap.AndroidCommandExecutor.execute(AndroidCommandExecutor.java:81)
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at io.appium.android.bootstrap.SocketServer.runCommand(SocketServer.java:203)
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at io.appium.android.bootstrap.SocketServer.handleClientData(SocketServer.java:105)
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at io.appium.android.bootstrap.SocketServer.listenForever(SocketServer.java:159)
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at io.appium.android.bootstrap.Bootstrap.testRunServer(Bootstrap.java:37)
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at java.lang.reflect.Method.invoke(Native Method)
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at junit.framework.TestCase.runTest(TestCase.java:168)
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at junit.framework.TestCase.runBare(TestCase.java:134)
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at junit.framework.TestResult$1.protect(TestResult.java:115)
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at junit.framework.TestResult.runProtected(TestResult.java:133)
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at junit.framework.TestResult.run(TestResult.java:118)
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at junit.framework.TestCase.run(TestCase.java:124)
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.start(UiAutomatorTestRunner.java:160)
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at com.android.uiautomator.testrunner.UiAutomatorTestRunner.run(UiAutomatorTestRunner.java:96)
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at com.android.commands.uiautomator.RunTestCommand.run(RunTestCommand.java:91)
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at com.android.commands.uiautomator.Launcher.main(Launcher.java:83)
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+06-27 16:36:28.486 W/UiAutomatorBridge(24837): 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:251)
+#----------------------------------------/n06-27 16:36:29.402 W/System.err(24864): java.lang.NullPointerException: Attempt to invoke virtual method 'android.net.NetworkInfo$State android.net.NetworkInfo.getState()' on a null object reference
+06-27 16:36:29.402 W/System.err(24864): 	at cn.com.iresearch.dau.c.b.g(SourceFile:441)
+06-27 16:36:29.402 W/System.err(24864): 	at cn.com.iresearch.dau.c.b.b(SourceFile:797)
+06-27 16:36:29.402 W/System.err(24864): 	at cn.com.iresearch.dau.IRDau.e(SourceFile:349)
+06-27 16:36:29.402 W/System.err(24864): 	at cn.com.iresearch.dau.IRDau.c(SourceFile:281)
+06-27 16:36:29.402 W/System.err(24864): 	at cn.com.iresearch.dau.a.run(SourceFile:149)
+06-27 16:36:29.402 W/System.err(24864): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1113)
+06-27 16:36:29.402 W/System.err(24864): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:588)
+06-27 16:36:29.402 W/System.err(24864): 	at java.lang.Thread.run(Thread.java:818)
+06-27 16:36:29.409 I/MediaPlayerMgr(24864): ## 2017-06-27 16:36:29.409 [24864,25692,:0] INFO ## [MediaPlayerMgr][IRuiDauReport.java]IRDau prereport
+06-27 16:36:29.417 I/TENCENT_AD_com.tencent.ads.strategy.AdStrategyManager(24864): ## 2017-06-27 16:36:29.417 [24864,25708,:0] INFO ## [TENCENT_AD_com.tencent.ads.strategy.AdStrategyManager]strategy evaluate fake result:feature[TH5]result[true]
+06-27 16:36:29.419 I/MtaSDK  (24864): [pool-11-thread-1(536): null:-1] - http recv response status code:200, content length:29
+06-27 16:36:29.420 I/MtaSDK  (24864): [pool-11-thread-1(536): null:-1] - http get response data:{"ret":0}
+06-27 16:36:29.420 I/MtaSDK  (24864): [pool-11-thread-1(536): null:-1] - [http://omgmta.play.t002.ottcn.com:80/mstat/report/?index=1498552573]Send request(1063bytes), content:[{"ky":"IZ663AV9QUDV","et":1000,"ui":"1991952261","mc":"02:00:00:00:00:00","ut":0,"ia":1,"av":"3.2.21.4.20","ch":"10022","mid":"81b925bee647b68e4f529d319cc837036b8bfade","idx":11,"si":1231579337,"ts":1498552589,"dts":0,"os":1,"ov":"23","md":"VIDAA_TV","jb":0,"mf":"Hisense","ei":"tv_unisdk_uastream","kv":{"all_sdk_vers":"shell_versCode: 3010, shell_vers: 2.3.0.10, plugin_sdk_versCode: 3010, player_sdk_vers: V4.6.000.11242","pull_from":"590603","time":"1498552563967","msg":"","guid":"080D3B2500E081E142ED016B562564FC","wifi_mac":"02:00:00:00:00:00","kt_userid":"","vuserid":"","version_code":1000000760,"vusession":"","main_login":"","eth_mac":"a8:a6:48:0c:c8:26","qua":"QV=1&PR=VIDEO&PT=HISENSE&CHID=10022&RL=1920*1080&VN=3.2.21&VN_CODE=1000000760&SV=6.0&DV=MSD6A938&VN_BUILD=4.20&MD=VIDAA_TV&BD=msd938&MF=VIDAA_TV&TVKPlatform=590603&PluginInfo=2.3.0.10_3010","code":101,"openid":"","pt":"HISENSE","pluginName":"unisdk_core","kt_login":"","access_token":"","version":"3.2.21.4.20","channel_id":"10022","kt_license_account":"","apk_name":"com.jamdeo.tv.vod"}}]
+06-27 16:36:29.421 D/MtaSDK  (24864): [pool-11-thread-1(536): null:-1] - before Gzip:1063 bytes, after Gzip:654 bytes
+#----------------------------------------/n06-27 16:36:29.525 W/System.err(24864): java.lang.NegativeArraySizeException: -1
+06-27 16:36:29.525 W/System.err(24864): 	at com.tencent.ads.service.e.a(SourceFile:129)
+06-27 16:36:29.525 W/System.err(24864): 	at com.tencent.ads.service.e.a(SourceFile:33)
+06-27 16:36:29.525 W/System.err(24864): 	at com.tencent.tads.service.a.aA(SourceFile:1482)
+06-27 16:36:29.525 W/System.err(24864): 	at com.tencent.tads.service.a.b(SourceFile:1477)
+06-27 16:36:29.525 W/System.err(24864): 	at com.tencent.tads.service.b.run(SourceFile:1459)
+06-27 16:36:29.525 W/System.err(24864): 	at java.lang.Thread.run(Thread.java:818)
+#----------------------------------------/n06-27 16:36:29.538 W/ContextImpl(24864): Failed to ensure /mnt/sdcard/Android/data/com.jamdeo.tv.vod/files: java.lang.SecurityException: Invalid mkdirs path: /storage/self/primary/Android/data/com.jamdeo.tv.vod/files
+06-27 16:36:29.540 I/MtaSDK  (24864): [pool-11-thread-1(536): null:-1] - http recv response status code:200, content length:29
+06-27 16:36:29.540 I/MtaSDK  (24864): [pool-11-thread-1(536): null:-1] - http get response data:{"ret":0}
+06-27 16:36:29.543 I/HTTPVolley(24864): ## 2017-06-27 16:36:29.543 [24864,25445,:0] INFO ## [HTTPVolley][null][559] e.a: HTTP response for request=<[ ] http://vv.play.t002.ottcn.com/getvinfo 0x2a645e89 NORMAL 2> [lifetime=205], [size=4003], [rc=200], [retryCount=0]
+06-27 16:36:29.549 I/P2PProxy(24864): ## 2017-06-27 16:36:29.546 [24864,25711,:0] INFO ## [P2PProxy][VInfoRequestProcess.java][getvinfo] timecost:210, success xml:<?xml version="1.0" encoding="utf-8"  standalone="no" ?>
+06-27 16:36:29.549 I/P2PProxy(24864): <root><dltype>3</dltype><exem>0</exem><fl><cnt>5</cnt><fi><id>320089</id><name>sd</name><lmt>0</lmt><sb>1</sb><cname>标清;(270P)</cname><br>64</br><drm>0</drm><video>1</video><fs>253032960</fs><sl>0</sl></fi><fi><id>321002</id><name>hd</name><lmt>0</lmt><sb>1</sb><cname>高清;(480P)</cname><br>300</br><drm>0</drm><video>1</video><fs>459304868</fs><sl>0</sl></fi><fi><id>320086</id><name>shd</name><lmt>0</lmt><sb>1</sb><cname>超清;(720P)</cname><br>650</br><drm>0</drm><video>1</video><fs>894813636</fs><sl>1</sl></fi><fi><id>320088</id><name>fhd</name><lmt>0</lmt><sb>1</sb><cname>蓝光;(1080P)</cname><br>500000</br><drm>0</drm><video>1</video><fs>1521326080</fs><sl>0</sl></fi><fi><id>320143</id><name>uhd</name><lmt>0</lmt><sb>1</sb><cname>4K;()</cname><br>500000</br><drm>0</drm><video>2</video><fs>2305333456</fs><sl>0</sl></fi></fl><hs>0</hs><ip>219.147.31.2</ip><ls>0</ls><preview>5724</preview><s>o</s><sfl><cnt>0</cnt></sfl><tm>1498552589</tm><vl><cnt>1</cnt><vi><br>146</br><ch>0</ch><ct>21600</ct><dm>1</dm><drm>0</drm><dsb>0</dsb><enc>0</enc><fc>20</fc><fmd5>2ce1b586571b00f1b29656caaed36d26</fmd5><fn>j0023nodb2a.320086.ts</fn><fps>25</fps><fs>894813636</fs><fst>5</fst><head>0</head><hevc>0</hevc><hfs>1029035681</hfs><iflag>0</iflag><keyid>j0023nodb2a.320086</keyid><ll><li><show>0</show><x>0</x><y>0</y><h>0</h><w>0</w></li></ll><lnk>j0023nodb2a</lnk><logo>0</logo><mst>8</mst><pl><cnt>3</cnt><pd><cd>10</cd><h>45</h><w>80</w><r>10</r><c>10</c><fmt>40001</fmt><fn>q1</fn><url>http://puui.qpic.cn/video_caps/0/</url></pd><pd><cd>10</cd><h>90</h><w>160</w><r>5</r><c>5</c><fmt>40002</fmt><fn>q2</fn><url>http://puui.qpic.cn/video_caps/0/</url></pd><pd><cd>10</cd><h>135</h><w>240</w><r>5</r><c>5</c><fmt>40003</fmt><fn>q3</fn><url>http://puui.qpic.cn/video_caps/0/</url></pd></pl><share>1</share><st>2</st><tail>0</tail><targetid>1978120832</targetid><td>5723.92</td><ti>钻石也疯狂</ti><type>1036</type><ul><ui><url>http://150.138.226.23/moviets.tc.qq.com/exo0sxhO-wPLzKJOo3zqSuOa9zgQcKJ2E9l01g1uIA6wFBF93MA23sY-I82ZvY005-pIvKRR4Zvs7qFPEPoQQmURPSyyKieps5VsUOVMKSLr_JJyFs1AzJbQSYQQsE2p66r1PckO9FBbjrNogUHkOQ/</url><vt>2803</vt><dtc>0</dtc><dt>2</dt><hls><et>0</et><fbw>65</fbw><ftype>mp4</ftype><hk>empty</hk><pnl><pi><bw>650</bw><fc>20</fc><fn>320086</fn></pi></pnl><st>0</st><stype>mp4</stype><pname>j0023nodb2a.320086.ts</pname><pt>j0023nodb2a.320086.ts.m3u8?ver=4</pt></hls></ui><ui><url>http://ltslx.qq.com/exo0sxhO-wPLzKJOo3zqSuOa9zgQcKJ2E9l01g1uIA6wFBF93MA23sY-I82ZvY005-pIvKRR4Zvs7qFPEPoQQmURPSyyKieps5VsUOVMKSLr_JJyFs1AzJbQSYQQsE2p66r1PckO9FBbjrNogUHkOQ/</url><vt>2610</vt><dtc>0</dtc><dt>2</dt><hls><et>0</et><fbw>65</fbw><ftype>mp4</ftype><hk>empty</hk><pnl><pi><bw>650</bw><fc>20</fc><fn>320086</fn></pi></pnl><st>0</st><stype>mp4</stype><pname>j0023nodb2a.320086.ts</pname><pt>j0023nodb2a.320086.ts.m3u8?ver=4</pt></hls></ui><ui><url>http://ltsbsy.qq.com/exo0sxhO-wPLzKJOo3zqSuOa9zgQcKJ2E9l01g1uIA6wFBF93MA23sY-I82ZvY005-pIvKRR4Zvs7qFPEPoQQmURPSyyKieps5VsUOVMKSLr_JJyFs1AzJbQSYQQsE2p66r1PckO9FBbjrNogUHkOQ/</url><vt>2630</vt><dtc>0</dtc><dt>2</dt><hls><et>0</et><fbw>65</fbw><ftype>mp4</ftype><hk>empty</hk><pnl><pi><bw>650</bw><fc>20</fc><fn>320086</fn></pi></pnl><st>0</st><stype>mp4</stype><pname>j0023nodb2a.320086.ts</pname><pt>j0023nodb2a.320086.ts.m3u8?ver=4</pt></hls></ui><ui><url>http://defaultts.tc.qq.com/defaultts.tc.qq.com/exo0sxhO-wPLzKJOo3zqSuOa9zgQcKJ2E9l01g1uIA6wFBF93MA23sY-I82ZvY005-pIvKRR4Zvs7qFPEPoQQmURPSyyKieps5VsUOVMKSLr_JJyFs1AzJbQSYQQsE2p66r1PckO9FBbjrNogUHkOQ/</url><vt>2800</vt><dtc>0</dtc><dt>2</dt><hls><et>0</et><fbw>65</fbw><ftype>mp4</ftype><hk>empty</hk><pnl><pi><bw>650</bw><fc>20</fc><fn>320086</fn></pi></pnl><st>0</st><stype>mp4</stype><pname>j0023nodb2a.320086.ts</pname><pt>j0023nodb2a.320086.ts.m3u8?ver=4</pt></hls></ui></ul><vh>720</vh><vid>j0023nodb2a</vid><vid[no:89546_00000]
+06-27 16:36:29.549 I/P2PProxy(24864): ## 2017-06-27 16:36:29.546 [24864,25711,:0] INFO ## [P2PProxy][no:89546_00000]eotype>1</videotype><vr>0</vr><vst>2</vst><vw>1280</vw><wh>1.7777778</wh><wl></wl></vi></vl></root>
+#----------------------------------------/n06-27 16:36:31.591 D/MediaHTTPConnection(24864): hitting IOException http://127.0.0.1:14088/vodhls/100001/1.ts n= -1
+#----------------------------------------/n06-27 16:36:41.170 W/WindowManager( 2310): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@57bd89d does not exist
+06-27 16:36:41.170 W/WindowManager( 2310): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8957)
+06-27 16:36:41.170 W/WindowManager( 2310): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8948)
+06-27 16:36:41.170 W/WindowManager( 2310): 	at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1270)
+06-27 16:36:41.170 W/WindowManager( 2310): 	at android.os.BinderProxy.sendDeathNotice(Binder.java:558)
+06-27 16:36:41.170 I/WindowState( 2310): WIN DEATH: null
+06-27 16:36:41.171 W/WindowManager( 2310): Failed looking up window
+#----------------------------------------/n06-27 16:36:41.171 W/WindowManager( 2310): java.lang.IllegalArgumentException: Requested window android.os.BinderProxy@5a13b74 does not exist
+06-27 16:36:41.171 W/WindowManager( 2310): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8957)
+06-27 16:36:41.171 W/WindowManager( 2310): 	at com.android.server.wm.WindowManagerService.windowForClientLocked(WindowManagerService.java:8948)
+06-27 16:36:41.171 W/WindowManager( 2310): 	at com.android.server.wm.WindowState$DeathRecipient.binderDied(WindowState.java:1270)
+06-27 16:36:41.171 W/WindowManager( 2310): 	at android.os.BinderProxy.sendDeathNotice(Binder.java:558)
+06-27 16:36:41.171 I/WindowState( 2310): WIN DEATH: null
+#----------------------------------------/n06-27 16:36:41.390 W/WindowManager( 2310): Exception when adding starting window
+#----------------------------------------/n06-27 16:36:41.390 W/WindowManager( 2310): java.lang.IllegalArgumentException: View=com.android.internal.policy.PhoneWindow$DecorView{172e037 V.E...... R.....ID 0,0-0,0} not attached to window manager
+06-27 16:36:41.390 W/WindowManager( 2310): 	at android.view.WindowManagerGlobal.findViewLocked(WindowManagerGlobal.java:424)
+06-27 16:36:41.390 W/WindowManager( 2310): 	at android.view.WindowManagerGlobal.removeView(WindowManagerGlobal.java:350)
+06-27 16:36:41.390 W/WindowManager( 2310): 	at android.view.WindowManagerImpl.removeViewImmediate(WindowManagerImpl.java:116)
+06-27 16:36:41.390 W/WindowManager( 2310): 	at com.android.server.policy.PhoneWindowManager.addStartingWindow(PhoneWindowManager.java:2829)
+06-27 16:36:41.390 W/WindowManager( 2310): 	at com.android.server.wm.WindowManagerService$H.handleMessage(WindowManagerService.java:8064)
+06-27 16:36:41.390 W/WindowManager( 2310): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+06-27 16:36:41.390 W/WindowManager( 2310): 	at android.os.Looper.loop(Looper.java:148)
+06-27 16:36:41.390 W/WindowManager( 2310): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+06-27 16:36:41.390 W/WindowManager( 2310): 	at com.android.server.ServiceThread.run(ServiceThread.java:46)
+06-27 16:36:41.391 V/PackageManager( 2310): getPackageInfo com.jamdeo.tv.vod: Package{b954081 com.jamdeo.tv.vod}
+#----------------------------------------/n06-27 16:36:41.465 W/InputMethodManagerService( 2310): Got RemoteException sending setActive(false) notification to pid 24864 uid 10021
+#----------------------------------------/n06-27 16:36:41.963 W/ContextImpl(25859): Failed to ensure /mnt/sdcard/Android/data/com.jamdeo.tv.vod/cache: java.lang.SecurityException: Invalid mkdirs path: /storage/self/primary/Android/data/com.jamdeo.tv.vod/cache
+06-27 16:36:41.964 I/PCDN_TAG(25859): start: vod /data/user/0/com.jamdeo.tv.vod/cache/youkupcdn 聚好看 3.2.21.4.20  --pcdn_check_domain=https://yun.youku.com/pcdn/s/check? --pcdn_report_domain=http://s.p.youku.com/iku/log/acc? --ct_path=/data/user/0/com.jamdeo.tv.vod/app_libs/pcdn_container --apppackage=com.jamdeo.tv.vod
+06-27 16:36:41.976 I/UTMini  (25859): url:::http://adash.m.taobao.com/rest/gc?dd=&nsgs=1&ak=23299685&av=3.2.21.4.20&c=3bc88b3d7a9d5cbe&v=3.0&s=cde2428b3d4331c4226d31f73c05bdce&d=WUjaRFUnE0gDAGbAvEclVq9x&sv=5.0.0&p=a&t=1498552601975&u=&is=0
+06-27 16:36:41.980 W/AudioCapabilities(25859): Unsupported mime audio/adpcm
+#----------------------------------------/n06-27 16:36:42.580 E/VcSystemInfo(25859): ## 2017-06-27 16:36:42.580 [25859,25968,:0] ERROR ## [VcSystemInfo][null]java.lang.NullPointerException: Attempt to invoke virtual method 'byte[] java.net.NetworkInterface.getHardwareAddress()' on a null object reference
+06-27 16:36:42.580 E/VcSystemInfo(25859): 	at com.tencent.qqlive.mediaplayer.g.l.B(VcSystemInfo.java:878)
+06-27 16:36:42.580 E/VcSystemInfo(25859): 	at com.tencent.qqlive.mediaplayer.g.l.d(VcSystemInfo.java:862)
+06-27 16:36:42.580 E/VcSystemInfo(25859): 	at com.tencent.qqlive.ck.CKeyFacade$1.run(CKeyFacade.java:136)
+06-27 16:36:42.580 E/VcSystemInfo(25859): 	at java.lang.Thread.run(Thread.java:818)
+06-27 16:36:42.580 E/VcSystemInfo(25859): 
+06-27 16:36:42.583 D/NetworkManager(25859): [TID 25951] getRequestTask(http://www.163.com): current pool size=4, queue=[]
+06-27 16:36:42.583 D/NetworkManager(25859): [TID 25951] getRequestTask(http://www.163.com): submitted task={java.util.concurrent.FutureTask@124c8db, 3611665}
+06-27 16:36:42.583 D/NetworkManager(25859): [TID 25951] << getRequestTask(http://www.163.com): returned task=java.util.concurrent.FutureTask@124c8db
+06-27 16:36:42.583 D/NetworkManager(25859): [TID 25951] >> getRequestTask(http://www.taobao.com)
+06-27 16:36:42.583 D/NetworkManager(25859): [TID 25951] getRequestTask(http://www.taobao.com): current pool size=5, queue=[]
+06-27 16:36:42.583 D/NetworkManager(25859): [TID 25951] getRequestTask(http://www.taobao.com): submitted task={java.util.concurrent.FutureTask@d5c3651, 3611697}
+06-27 16:36:42.583 D/NetworkManager(25859): [TID 25951] << getRequestTask(http://www.taobao.com): returned task=java.util.concurrent.FutureTask@d5c3651
+06-27 16:36:42.583 D/NetworkManager(25859): [TID 25951] >> getRequestTask(http://www.sina.com.cn)
+06-27 16:36:42.584 D/NetworkManager(25859): [TID 25951] getRequestTask(http://www.sina.com.cn): current pool size=6, queue=[]
+06-27 16:36:42.584 D/NetworkManager(25859): [TID 25951] getRequestTask(http://www.sina.com.cn): submitted task={java.util.concurrent.FutureTask@89d17b7, 3611698}
+06-27 16:36:42.584 D/NetworkManager(25859): [TID 25951] << getRequestTask(http://www.sina.com.cn): returned task=java.util.concurrent.FutureTask@89d17b7
+06-27 16:36:42.586 D/NetworkManager(25859): [TID 25996] >> request(http://www.taobao.com, 3611697)
+06-27 16:36:42.587 D/NetworkManager(25859): [TID 25997] >> request(http://www.sina.com.cn, 3611698)
+06-27 16:36:42.587 D/NetworkManager(25859): [TID 25996] request(http://www.taobao.com, 3611697): openConnection
+06-27 16:36:42.587 D/NetworkManager(25859): [TID 25997] request(http://www.sina.com.cn, 3611698): openConnection
+06-27 16:36:42.588 D/NetworkManager(25859): [TID 25995] >> request(http://www.163.com, 3611665)
+06-27 16:36:42.588 D/NetworkManager(25859): [TID 25995] request(http://www.163.com, 3611665): openConnection
+#----------------------------------------/n06-27 16:36:47.518 W/System.err( 2838): com.qiyi.video.api.ApiException
+06-27 16:36:47.519 W/System.err( 2838): 	at com.qiyi.tvapi.tv2.a$3.onSuccess(SourceFile:195)
+06-27 16:36:47.519 W/System.err( 2838): 	at com.qiyi.video.api.a.d.c(SourceFile:105)
+06-27 16:36:47.519 W/System.err( 2838): 	at com.qiyi.video.api.a.d.b(SourceFile:128)
+06-27 16:36:47.519 W/System.err( 2838): 	at com.qiyi.tvapi.tv2.a$1.a(SourceFile:101)
+06-27 16:36:47.519 W/System.err( 2838): 	at com.qiyi.tvapi.tv2.b.c.a(SourceFile:151)
+06-27 16:36:47.519 W/System.err( 2838): 	at com.qiyi.tvapi.tv2.a.a(SourceFile:94)
+06-27 16:36:47.519 W/System.err( 2838): 	at com.qiyi.tvapi.tv2.a.callSync(SourceFile:53)
+06-27 16:36:47.519 W/System.err( 2838): 	at com.qiyi.sdk.plugin.server.upgrade.UpgradeManager.checkUpgrades(SourceFile:60)
+06-27 16:36:47.519 W/System.err( 2838): 	at com.qiyi.sdk.plugin.server.core.PluginHelper$TimerHandler.checkAllUpgrade(SourceFile:359)
+06-27 16:36:47.519 W/System.err( 2838): 	at com.qiyi.sdk.plugin.server.core.PluginHelper$TimerHandler.handleMessage(SourceFile:336)
+06-27 16:36:47.519 W/System.err( 2838): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+06-27 16:36:47.519 W/System.err( 2838): 	at android.os.Looper.loop(Looper.java:148)
+06-27 16:36:47.520 W/System.err( 2838): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+#----------------------------------------/n06-27 16:36:47.520 W/UpgradeManager( 2838): moduleUpdate() onException!! exception=com.qiyi.video.api.ApiException
+06-27 16:36:47.520 I/System.out( 2838): <TVAPI> ERROR(id=5, moduleUpdate, response_time = 85ms): call error. data = {"msg":"数据出错，请稍后再试\n错误码：E000012","code":"E000012","data":[]}
+#----------------------------------------/n06-27 16:36:47.521 W/System.err( 2838): com.qiyi.video.api.ApiException
+06-27 16:36:47.521 W/System.err( 2838): 	at com.qiyi.tvapi.tv2.a$3.onSuccess(SourceFile:195)
+06-27 16:36:47.521 W/System.err( 2838): 	at com.qiyi.video.api.a.d.c(SourceFile:105)
+06-27 16:36:47.521 W/System.err( 2838): 	at com.qiyi.video.api.a.d.b(SourceFile:128)
+06-27 16:36:47.521 W/System.err( 2838): 	at com.qiyi.tvapi.tv2.a$1.a(SourceFile:101)
+06-27 16:36:47.521 W/System.err( 2838): 	at com.qiyi.tvapi.tv2.b.c.a(SourceFile:151)
+06-27 16:36:47.521 W/System.err( 2838): 	at com.qiyi.tvapi.tv2.a.a(SourceFile:94)
+06-27 16:36:47.521 W/System.err( 2838): 	at com.qiyi.tvapi.tv2.a.callSync(SourceFile:53)
+06-27 16:36:47.521 W/System.err( 2838): 	at com.qiyi.sdk.plugin.server.upgrade.UpgradeManager.checkUpgrades(SourceFile:60)
+06-27 16:36:47.522 W/System.err( 2838): 	at com.qiyi.sdk.plugin.server.core.PluginHelper$TimerHandler.checkAllUpgrade(SourceFile:359)
+06-27 16:36:47.522 W/System.err( 2838): 	at com.qiyi.sdk.plugin.server.core.PluginHelper$TimerHandler.handleMessage(SourceFile:336)
+06-27 16:36:47.522 W/System.err( 2838): 	at android.os.Handler.dispatchMessage(Handler.java:102)
+06-27 16:36:47.522 W/System.err( 2838): 	at android.os.Looper.loop(Looper.java:148)
+06-27 16:36:47.523 W/System.err( 2838): 	at android.os.HandlerThread.run(HandlerThread.java:61)
+06-27 16:36:47.523 W/PluginHelper( 2838): checkAllUpgrade>>() return true
+06-27 16:36:47.523 W/StorageManager( 2838): loadLastUpgradeTime<<(upgradeTime=1498552607419)
+06-27 16:36:47.523 W/StorageStub@f7ca6c5( 2838): saveLastUpgradeTime<<(upgradeTime=1498552607419)
+06-27 16:36:47.524 W/StorageStub@f7ca6c5( 2838): saveLastUpgradeTime>>()
+06-27 16:36:47.524 W/StorageManager( 2838): loadLastUpgradeTime>>()
+06-27 16:36:47.524 W/PluginHelper( 2838): handleMessage>>()

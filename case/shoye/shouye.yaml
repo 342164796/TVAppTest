@@ -1,0 +1,19 @@
+---
+-
+  name: 顶部固定按钮展现
+  action: assert
+  element: com.jamdeo.tv.vod:id/ll_search_layout,com.jamdeo.tv.vod:id/rl_user_icon_layout,com.jamdeo.tv.vod:id/ll_setting_layout,com.jamdeo.tv.vod:id/ll_wechat_layout,com.jamdeo.tv.vod:id/iv_logo
+-
+  name: 首栏播放历史测试
+  action: or_assert
+  verification: com.jamdeo.tv.vod:id/iv_last_history_poster,com.jamdeo.tv.vod:id/rl_history_enter_container,com.jamdeo.tv.vod:id/iv_single_poster
+-
+  name: 首栏测试
+  action: assert
+  element: com.jamdeo.tv.vod:id/single_poster_item_root,android.widget.RelativeLayout
+
+  name: 按上键展开分类
+  action: keyevent
+  keys: up,up
+  sleep: 1
+  assert: 按下键收起分类,android.widget.LinearLayout,android.widget.LinearLayout
